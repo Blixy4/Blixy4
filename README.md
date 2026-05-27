@@ -15,11 +15,11 @@
 
 I am a full-stack software engineer and founder of **HelixNova™ Inc**, a technology company based in Canada. I design and build cross-platform software, intelligent systems, and institutional platforms — from mobile apps on the Play Store to enterprise-grade desktop software.
 
-My work spans Flutter mobile development, Java backend systems, machine learning pipelines, and Linux infrastructure. I have a strong focus on language technology and building tools that preserve and extend the reach of African languages.
+My work spans Flutter mobile development, Java and C# backend systems, machine learning pipelines, and Linux infrastructure. I have a strong focus on language technology and NLP — building tools that preserve and extend the reach of African languages. Currently fine-tuning **LLaMA** for agent-based workflows and applied AI systems.
 
 - Founder — HelixNova™ Inc, Canada
 - Published applications on the Google Play Store
-- Specializing in system design, NLP, and cross-platform development
+- Specializing in system design, NLP, app hosting, and cross-platform development
 - Active on GitHub and GitLab
 
 ---
@@ -30,21 +30,27 @@ My work spans Flutter mobile development, Java backend systems, machine learning
 
 ![Flutter](https://img.shields.io/badge/Flutter-0d3d2e?style=flat&logo=flutter&logoColor=3de8b0)
 ![Dart](https://img.shields.io/badge/Dart-0d3d2e?style=flat&logo=dart&logoColor=3de8b0)
+![Kotlin](https://img.shields.io/badge/Kotlin-0d3d2e?style=flat&logo=kotlin&logoColor=3de8b0)
 ![Android](https://img.shields.io/badge/Android-0d3d2e?style=flat&logo=android&logoColor=3de8b0)
 
 **Backend & Desktop**
 
 ![Java](https://img.shields.io/badge/Java-0d3d2e?style=flat&logo=openjdk&logoColor=3de8b0)
+![C#](https://img.shields.io/badge/C%23-0d3d2e?style=flat&logo=csharp&logoColor=3de8b0)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d3d2e?style=flat&logo=typescript&logoColor=3de8b0)
 ![Python](https://img.shields.io/badge/Python-0d3d2e?style=flat&logo=python&logoColor=3de8b0)
-![Linux](https://img.shields.io/badge/Linux-0d3d2e?style=flat&logo=linux&logoColor=3de8b0)
 
-**ML & Language Tech**
+**AI & Language Tech**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-0d3d2e?style=flat&logo=tensorflow&logoColor=3de8b0)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0d3d2e?style=flat&logo=scikitlearn&logoColor=3de8b0)
+![LLaMA](https://img.shields.io/badge/LLaMA_fine--tuning-0d3d2e?style=flat&logo=meta&logoColor=3de8b0)
 
 **Infrastructure**
 
+![Linux](https://img.shields.io/badge/Linux-0d3d2e?style=flat&logo=linux&logoColor=3de8b0)
+![Apache](https://img.shields.io/badge/Apache-0d3d2e?style=flat&logo=apache&logoColor=3de8b0)
+![Nginx](https://img.shields.io/badge/Nginx-0d3d2e?style=flat&logo=nginx&logoColor=3de8b0)
 ![Firebase](https://img.shields.io/badge/Firebase-0d3d2e?style=flat&logo=firebase&logoColor=3de8b0)
 ![Git](https://img.shields.io/badge/Git-0d3d2e?style=flat&logo=git&logoColor=3de8b0)
 ![GitLab](https://img.shields.io/badge/GitLab-0d3d2e?style=flat&logo=gitlab&logoColor=3de8b0)
@@ -55,7 +61,7 @@ My work spans Flutter mobile development, Java backend systems, machine learning
 
 > **Kirundi Lexicon Collection Platform** — Desktop application, Windows
 
-A dedicated platform for collecting, validating, and structuring lexical data for the Kirundi language. LexCollector provides linguists and contributors with a clean authenticated workspace for word entry, definition management, and structured data export — feeding directly into NLP pipelines and the bilingual dictionary published on the Play Store.
+A dedicated platform for collecting, validating, and structuring lexical data for the Kirundi language. LexCollector provides linguists and contributors with a clean authenticated workspace for word entry, definition management, and structured data export — feeding directly into NLP pipelines and the English-Kirundi Dictionary published on the Play Store.
 
 Split-panel desktop design with local authentication and persistent data storage. Built natively for Windows.
 
@@ -65,8 +71,12 @@ Split-panel desktop design with local authentication and persistent data storage
 
 ## Projects
 
-### Bilingual Dictionary [English-Kirundi] — Play Store
-Offline-first mobile dictionary preserving Kirundi for a global audience. Thousands of curated entries with zero connectivity required.
+### English-Kirundi Dictionary — Play Store
+> Published by HelixNova™ Inc
+
+Offline-first bilingual dictionary for English and Kirundi speakers. Thousands of curated entries with zero connectivity required.
+
+[![Play Store](https://img.shields.io/badge/Play_Store-0d3d2e?style=flat&logo=googleplay&logoColor=3de8b0)](https://play.google.com/store/apps/details?id=helixnova.english_kirundi)
 
 `Flutter` `Dart` `SQLite` `NLP` `Play Store`
 
@@ -75,7 +85,7 @@ Offline-first mobile dictionary preserving Kirundi for a global audience. Thousa
 ### School Management System
 End-to-end institutional platform covering student records, staff management, grades, scheduling, and reporting. Deployed in real educational institutions.
 
-`Java` `System Design` `Desktop` `Database`
+`Java` `C#` `System Design` `Desktop` `Database`
 
 ---
 
@@ -86,10 +96,17 @@ Mobile payments infrastructure for local commerce. Multi-branch native Android a
 
 ---
 
-### Admin Dashboard
-Back-office management platform for users, data, and operations at enterprise scale. Robust desktop interface with layered access control.
+### LexCollector
+Desktop application for Kirundi lexical data collection. Feeds directly into NLP pipelines and the Play Store dictionary. See featured section above.
 
-`Java` `Desktop` `Architecture`
+`Java` `Flutter` `Desktop` `NLP` `Lexicography`
+
+---
+
+### Admin Dashboard
+Back-office management platform for users, data, and operations at enterprise scale. Layered access control and audit logging.
+
+`Java` `C#` `Desktop` `Architecture`
 
 ---
 
@@ -101,9 +118,9 @@ Handles property records, tenant data, and operational workflows. Built for real
 ---
 
 ### REST API Service
-Clean, documented backend API infrastructure powering mobile and web clients.
+Clean, documented backend API infrastructure powering mobile and web clients. Structured for scalability.
 
-`Java` `REST` `Firebase` `Backend`
+`Java` `TypeScript` `REST` `Firebase` `Backend`
 
 ---
 
@@ -124,7 +141,20 @@ Smart tracking and analytics for cycling and transport. Real-time data with a mi
 ### Web Converter Tool
 Browser-based utility for format conversion. Lightweight and dependency-free.
 
-`HTML` `JavaScript` `Web`
+`TypeScript` `HTML` `JavaScript` `Web`
+
+---
+
+## Skills
+
+| Category | Skills |
+|---|---|
+| Mobile | Flutter, Dart, Kotlin, Android SDK, Play Store deployment |
+| Backend & Desktop | Java, C#, TypeScript, REST API design, Firebase, SQLite, MySQL |
+| AI & Language Tech | Python, ML, NLP, TensorFlow, LLaMA fine-tuning, AI agents, Data pipelines |
+| Infrastructure | Linux, Apache, Nginx, App hosting, DNS management, SSH, Server admin |
+| Architecture | System design, API design, Database modeling, Auth systems, Multi-tenant apps |
+| Web & Tooling | HTML/CSS, TypeScript, JavaScript, Git, GitHub, GitLab, CI/CD |
 
 ---
 
@@ -146,7 +176,7 @@ Browser-based utility for format conversion. Lightweight and dependency-free.
 
 - GitHub — [github.com/Blixy4](https://github.com/Blixy4)
 - Company — HelixNova™ Inc, Canada
-- Play Store — Search **English-Kirundi** to find published apps
+- Play Store — [English-Kirundi Dictionary](https://play.google.com/store/apps/details?id=helixnova.english_kirundi) by HelixNova™ Inc
 
 ---
 
